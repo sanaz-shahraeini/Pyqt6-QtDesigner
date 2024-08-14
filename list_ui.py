@@ -32,7 +32,7 @@ class Main:
             item = self.listui.listBox.item(index)
             print(item.text())
 
-
+# execute the app
 app = QApplication([])
 mymain = Main()
 app.exec()
